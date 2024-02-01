@@ -5,7 +5,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        Roboto: ['Roboto', 'sans-serif']
+        //Roboto: ['Roboto', 'sans-serif']
+        //@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
       },
       boxShadow: {
         hard: '0 10px 15px -3px rgb(0 0 0 / 0.3), 0 4px 6px -4px rgb(0 0 0 / 0.3)',
