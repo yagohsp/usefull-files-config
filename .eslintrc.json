@@ -1,3 +1,4 @@
+//npm i -D eslint eslint-config-airbnb eslint-config-prettier eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-prettier eslint-plugin-react eslint-plugin-react-hooks prettier
 {
   "env": {
     "es6": true,
@@ -28,7 +29,6 @@
     "react/prop-types": "off",
     "import/prefer-default-export": "off",
     "import/no-cycle": "off",
-    "import/no-unresolved": [2, { "ignore": ["@env"] }],
     "comma-dangle": "off",
     "object-curly-newline": "off",
     "no-console": "off",
