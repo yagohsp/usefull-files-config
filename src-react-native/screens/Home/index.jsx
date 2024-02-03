@@ -1,3 +1,4 @@
+import { SvgUri } from 'react-native-svg';
 import tw from 'twrnc';
 
 import { Text, View } from 'react-native';
@@ -11,13 +12,15 @@ export default function Home() {
         backgroundColor: '#000'
       }}
     >
-      <Text style={tw`text-black text-md`}>Hello World</Text>
+      <Text style={tw`text-md text-black`}>Hello World</Text>
 
       <Button
         onPress={() => {
           console.log('logout');
         }}
-      ></Button>
+      >
+        <SvgUri width="100%" height="100%" uri="/icons/check.svg" />
+      </Button>
     </View>
   );
 }

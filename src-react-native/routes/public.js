@@ -5,7 +5,7 @@ export default [
     component: Login,
     name: 'Login',
     options: {
-      // headerShown: false
+      headerShown: false
     }
   }
 ];

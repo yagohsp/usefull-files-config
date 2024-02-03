@@ -4,5 +4,9 @@
   "trailingComma": "none",
   "endOfLine": "auto",
   "printWidth": 80,
-  "tabWidth": 2
+  "tabWidth": 2,
+  "plugins": [
+    "prettier-plugin-classnames"
+  ],
+  "customAttributes": ["className", "class", "style"]
 }
